@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 300;
+    src: local('Futura-Bol.ttf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 400;
+    src: local('Futura-Dem.ttf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 200;
+    src: local('Futura-Med.ttf');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 100;
+    src: local('Futura-Lig.ttf');
+}
+
+body {
+    width: 100%;
+    background: #fff;
+
+}
+
+.container {
+    width: 100%;
+
+
+}
+
+#main {
+    overflow: hidden;
+    width: 100%;
+
+
+}
+
+.main-visual {
+    width: 100%;
+    height: 860px;
+    background: #fff url(hero.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 32px;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.main-visual h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-style: italic;
+    font-family: "Futura";
+}
+
+nav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+
+
+}
+
+nav a {
+    font-size: 27px;
+    font-family: 'Futura';
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 18px 4px;
+    transition: 0.4s;
+
+}
+
+nav a:hover {
+    color: #3D5CDB;
+}
+
+.top-title {
+    text-align: center;
+    color: #3D5CDB;
+    font-size: 53px;
+    font-weight: 150;
+    font-family: "Futura";
+}
+
+/*#Introduction{
+    width: 100%;
+    
+    padding: 10px;
+    display: flex;
+    
+    
+        
+}*/
+
+
+
+#intro1 img {
+    float: left;
+    padding-right: 100px;
+
+
+}
+
+#introp1 {
+    float: left;
+    width: 370px;
+
+    text-align: center;
+
+
+}
+
+#introp1 p {
+    margin-bottom: 60px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#parent1 {
+    width: 100%;
+
+
+
+
+}
+
+#intro1 {
+
+    padding: 50px;
+    margin: 0 auto;
+
+
+
+}
+
+#parent2 {
+    width: 100%;
+
+
+
+}
+
+#intro2 {
+    padding: 50px;
+
+
+}
+
+#intro2 img {
+    float: left;
+    width: 360;
+    padding-left: 100px;
+
+}
+
+#introp2 {
+    float: left;
+    width: 370px;
+    margin-right: 18px;
+    position: relative;
+    text-align: center;
+}
+
+#introp2 p {
+    padding-bottom: 40px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.button {
+    text-decoration: none;
+
+    border-radius: 10px;
+    padding: 2px 30px;
+}
+
+#a1 {
+
+    background: #3E5DDB;
+    border: 1px solid #3E5DDB;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50px;
+
+
+
+}
+
+#a2 {
+
+    background: #FFBF01;
+    border: 1px solid #FFBF01;
+    font-size: 20px;
+    color: #fff;
+
+    margin-top: 50px;
+
+
+}
+
+#Courses {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #D5E6F9;
+    position: relative;
+}
+
+.box {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.box img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.box a {
+    font-size: 13px;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300px;
+    font-family: 'MyFont';
+}
+
+.button:hover {
+    box-shadow: 0px 0px 15px lightgray;
+
+}
+
+.box p {
+    margin: 30px;
+}
+
+.courseImg {
+
+    height: 130px;
+    margin: 40px auto;
+
+}
+
+
+#html a {
+    color: #fff;
+    background: #F16529;
+}
+
+#css a {
+    color: #fff;
+    background: #29A9DF;
+}
+
+#unity a {
+    color: #fff;
+    background: #000;
+}
+
+#ruby a {
+    color: #fff;
+    background: #FF5252;
+}
+
+#js a {
+    color: #fff;
+    background: #FED700;
+}
+
+#swift a {
+    color: #fff;
+    background: #FE7536;
+}
+
+#go a {
+    color: #fff;
+    background: #73CEDD;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Images {
+    padding: 50px;
+
+}
+
+#Images ul {
+    width: 1000px;
+    border-image-repeat: none;
+
+}
+
+.slider {
+    display: block;
+    margin: 40px auto;
+}
+
+.slider img {
+    width: 100%;
+
+}
+
+#Access {
+    padding: 50px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+
+}
+
+footer {
+    text-align: center;
+    color: #3D5CDB;
+}
+
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
