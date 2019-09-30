@@ -443,35 +443,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 450px){
-    
-    #logo{
-    width: 70vw;
-    margin: auto;
-    }
-    
-    nav {
-    display: none;
-}
-    .introp1 {
-        float: none;
-    width: 100%;
-    margin-bottom: 20px;
-    line-height: 2;
-}
-    
-    .parent1 {
-        float: none;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    font-size: 12px;
-}
-    
-    
-}
+
     
     
 
