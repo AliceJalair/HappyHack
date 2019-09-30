@@ -41,6 +41,8 @@ body {
 
 
 
+
+
 .main{
      overflow: hidden;
     width: 100%;
@@ -59,7 +61,12 @@ body {
     margin-bottom: 32px;
 }
 
-
+@media screen and (max-width: 480px){
+    .main-visual{
+        max-width:100%;
+    }
+    
+}
 
 #logo {
     text-align: center;
@@ -78,6 +85,12 @@ body {
     font-family: "Futura";
 }
 
+@media screen and (max-width: 480px){
+    #logo{
+        max-width:100%;
+    }
+    
+}
 
 nav {
     overflow: hidden;
@@ -113,6 +126,15 @@ nav a:hover {
     color: #3D5CDB;
 }
 
+@media screen and (max-width: 480px){
+    
+    nav{display:none;
+    
+    }
+    
+    
+}
+
 .top-title {
     text-align: center;
     color: #3D5CDB;
@@ -131,7 +153,15 @@ nav a:hover {
         
 }*/
 
-
+@media screen and (max-width: 480px){
+#img1{
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+}
 
 #intro1 img {
     float: left;
@@ -142,15 +172,6 @@ nav a:hover {
 
 }
 
-@media (max-width: 450px){
-#img1 {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-    line-height: 2;
-}
-}
 
 #introp1 {
     float: left;
@@ -159,6 +180,13 @@ nav a:hover {
     text-align: center;
 
 
+}
+
+@media screen and (max-width: 480px){
+    #introp1{
+        float:none;
+    }
+    
 }
 
 
@@ -174,7 +202,11 @@ nav a:hover {
     
 }
 
-
+@media screen and (max-width: 480px){
+    .parent1{
+        display:column;
+}
+}
 
 
 #intro1 {
